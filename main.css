@@ -11,13 +11,11 @@ body{
 .container{
     width: 60%;
     text-align: center;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: 5rem auto;
 }
 .container h2{
     margin: 3rem 0;
 }
-
 .faq-block{
     position: relative;
     display: flex;
@@ -26,9 +24,7 @@ body{
     border-radius: 10px;
     padding: 2.5rem;
     margin: 1rem;
-    
 }
-
 .faq-block .answer{
     position: absolute;
     top: 20px;
@@ -38,10 +34,14 @@ body{
     display: flex;
     padding: 2.8rem 0;
 }
+
 .btn .fa-times{
     display: none;
 }
-
 .btn.active .fa-times{
     display: block;
+}
+
+.back{
+    background-color: white;
 }

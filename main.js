@@ -6,5 +6,6 @@ blockBtn.forEach(item => {
     item.addEventListener('click', () => {
          item.parentNode.classList.toggle('active');
          item.parentNode.parentNode.classList.toggle('active');
+         item.parentNode.parentNode.classList.toggle('back');
     })
 })
