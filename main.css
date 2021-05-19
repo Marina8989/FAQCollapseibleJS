@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightgray;
+    text-align: center;
+    margin: 0 auto;
+}
+.container{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.container h2{
+    margin: 3rem 0;
+}
+
+.faq-block{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+}
+.faq-block .answer{
+    position: absolute;
+    top: 20px;
+    display: none;
+}
+.faq-block .answer.active{
+    display: flex;
+}
+.btn .fa-times{
+    display: none;
+}
+
+.btn .fa-times.active{
+    display: block;
+}
